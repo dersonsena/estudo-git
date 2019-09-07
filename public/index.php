@@ -2,7 +2,8 @@
 
 // Aqui é o front controller da aplicacao
 
-$config = require_once '../config/db.php';
+// O arquivo certo e o config.php
+$config = require_once '../config/config.php';
 
 $app = new Application($config);
 $app->run()
